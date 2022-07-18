@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ua">
+<html lang="ru" >
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Webstudio</title>
+		<title>Вебстудія</title>
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -12,6 +12,8 @@
 			rel="stylesheet"/>
 		<linkrel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+		<link rel="stylesheet" href="./css/main.min.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 
@@ -106,7 +108,7 @@
 
 				<h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
 
-				<button class="btn-light btn" type="button" data-modal-open>Замовити послугу</button>
+				<button class="btn-light btn" type="button" aria-label="name" data-modal-open>Замовити послугу</button>
 
 			</section>
 
@@ -114,7 +116,7 @@
 
 				<div class="modal">
 
-					 <button class="modal__btn" type="button" data-modal-close>
+					 <button class="modal__btn" type="button" aria-label="name" data-modal-close>
 
 						<svg class="modal__svg" width="18" height="18">
 
@@ -228,7 +230,7 @@
 											target="_blank" rel="noopener noreferrer">Умови договору</a></span>
 								</label>
 
-								<button class="form__button" type="submit"> Відправити </button>
+								<button class="button-form" type="submit"> Відправити </button>
 
 							</div>
 
@@ -242,7 +244,7 @@
 
 			<!--Особливості-->
 
-			<section class="description section">
+			<section class="description">
 
 				<div class="container">
 
@@ -338,7 +340,7 @@
 
 			<!--Чим займаємося-->
 
-			<section class="about section">
+			<section class="about">
 
 				<div class="container">
 
@@ -390,7 +392,7 @@
 
 			<!--Наша команда-->
 
-			<section class="team section">
+			<section class="team">
 
 				<div class="container">
 
@@ -762,7 +764,7 @@
 
 			<!-- Постійні клієнти -->
 
-			<section class="customer section">
+			<section class="customer">
 
 				<div class="container">
 
@@ -1004,9 +1006,9 @@
 
 						<input class="footer__email__input" type="email" name="email" id="email" placeholder="E-mail"/></label>
 
-						<button class="footer__btn" type="submit">Підписатися
+						<button class="btn-footer" type="submit">Підписатися
 
-                     <span class="footer__btn__svg" >
+                     <span class="btn-footer-svg" >
 
 						<svg width="24" height="24">
 			
